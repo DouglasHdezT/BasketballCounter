@@ -23,7 +23,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Team A"
+                android:text="@string/team_a"
                 android:textColor="#000"
                 android:textSize="16sp"
                 />
@@ -35,25 +35,25 @@
                 android:textSize="40sp"
                 android:layout_marginTop="32dp"
                 android:layout_marginBottom="32dp"
-                android:text="0"/>
+                android:text="@string/_0"/>
 
             <Button
                 android:id="@+id/cont_1_a"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="+1"
+                android:text="@string/_1"
                 />
             <Button
                 android:id="@+id/cont_2_a"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="+2"
+                android:text="@string/_2"
                 />
             <Button
                 android:id="@+id/cont_3_a"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="+3"
+                android:text="@string/_3"
                 />
 
         </LinearLayout>
@@ -73,7 +73,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Team B"
+                android:text="@string/team_b"
                 android:textColor="#000"
                 android:textSize="16sp"
                 />
@@ -85,25 +85,25 @@
                 android:textSize="40sp"
                 android:layout_marginTop="32dp"
                 android:layout_marginBottom="32dp"
-                android:text="0"/>
+                android:text="@string/_0"/>
 
             <Button
                 android:id="@+id/cont_1_b"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="+1"
+                android:text="@string/_1"
                 />
             <Button
                 android:id="@+id/cont_2_b"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="+2"
+                android:text="@string/_2"
                 />
             <Button
                 android:id="@+id/cont_3_b"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="+3"
+                android:text="@string/_3"
                 />
 
         </LinearLayout>
@@ -117,7 +117,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:text="RESET"
+        android:text="@string/reset"
         android:layout_gravity="center" />
 
     <TextView
@@ -125,6 +125,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_gravity="center"
-        android:text="Author: Douglas Antonio Hernandez Torres"/>
+        android:text="@string/name_author"/>
 
 </LinearLayout>
